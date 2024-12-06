@@ -2,13 +2,17 @@ package com.java.warnings.java17;
 
 import java.util.Optional;
 
+//Optional is a value based class that is used to represent an optional value means it can be null or non-null.
+// A value-based class is a class that is defined by its value, that is, the class has no identity and is immutable.
+
 public class Main {
     public static void main(String[] args) {
-        Optional<String> optional = Optional.of("Hello");
+        Optional<Integer> optional = Optional.of(2);
 
-        // Incorrect usage: Synchronization: a mechanism that ensures that only one thread can access a particular block of code or resource at a time. 
-        synchronized (optional) { //warning
+        if(optional.equals(3)){
+            
             System.out.println("Synchronized on Optional: " + optional.get());
         }
+         //warning
     }
 }

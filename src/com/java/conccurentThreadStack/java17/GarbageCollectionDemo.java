@@ -50,5 +50,6 @@ public class GarbageCollectionDemo {
 }
 
 
-// javac -d . com\java\nondone\conccurentThreadStack\java17\GarbageCollectionDemo.java
-// java -XX:+UseZGC -Xms5G -Xmx5G -Xlog:gc com.java.nondone.conccurentThreadStack.java17.GarbageCollectionDemo
+// javac -d . com\java\conccurentThreadStack\java17\GarbageCollectionDemo.java
+// java -XX:+UseZGC -Xms5G -Xmx5G -Xlog:gc com.java.conccurentThreadStack.java17.GarbageCollectionDemo
+// java -XX:+UseZGC -Xms5G -Xmx5G -Xlog:gc*:stdout:time com.java.conccurentThreadStack.java17.GarbageCollectionDemo

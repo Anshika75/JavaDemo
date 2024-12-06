@@ -9,8 +9,8 @@ public class JFRDemo {
     }
 }
 
-// javac com/java/nondone/jfr/java17/JFRDemo.java  
-// java -XX:StartFlightRecording=filename=recording.jfr,dumponexit=true -cp . com.java.nondone.jfr.java17.JFRDemo
+// javac com/java/jfr/java17/JFRDemo.java  
+// java -XX:StartFlightRecording=filename=recording.jfr,dumponexit=true -cp . com.java.jfr.java17.JFRDemo
 
 
 // jfr file can be opened using JDK Mission Control (JMC). JMC provides a graphical interface to analyze the recorded data, allowing you to:

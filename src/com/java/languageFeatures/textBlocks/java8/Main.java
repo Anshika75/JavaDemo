@@ -10,3 +10,5 @@ public class Main {
         System.out.println(txt);
     }
 }
+
+// \n is known as escape sequence. It is used to represent a new line character.

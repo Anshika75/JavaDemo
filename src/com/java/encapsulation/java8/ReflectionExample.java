@@ -20,5 +20,5 @@ public class ReflectionExample {
 }
 
 
-// javac com/java/nondone/encapsulation/java8/ReflectionExample.java
-// java --add-opens java.base/sun.misc=ALL-UNNAMED com.java.nondone.encapsulation.java8.ReflectionExample
+// javac com/java/encapsulation/java8/ReflectionExample.java
+// java --add-opens java.base/sun.misc=ALL-UNNAMED com.java.encapsulation.java8.ReflectionExample

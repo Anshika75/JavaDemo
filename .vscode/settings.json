@@ -3,5 +3,8 @@
     "java.project.outputPath": "bin",
     "java.project.referencedLibraries": [
         "lib/**/*.jar"
-    ]
+    ],
+    "java.debug.settings.onBuildFailureProceed": true,
+    "java.jdt.ls.vmargs": "--add-modules=jdk.incubator.vector"
+
 }

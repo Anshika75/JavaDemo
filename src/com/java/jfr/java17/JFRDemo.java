@@ -3,7 +3,7 @@ package com.java.jfr.java17;
 public class JFRDemo {
     public static void main(String[] args) {
         System.out.println("JFR Demo");
-        for(int i=0; i<10; i++) {
+        for(int i=0; i<1000; i++) {
             System.out.println("Value of i: " + i);
         }
     }

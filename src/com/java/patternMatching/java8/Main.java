@@ -1,6 +1,6 @@
 package com.java.patternMatching.java8;
 
-public class Main {
+public class Main { 
     public static void main(String[] args) {
         Object obj = "Java Demo";
 

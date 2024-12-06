@@ -2,6 +2,13 @@ package com.java.encapsulation.java8;
 
 import sun.misc.Unsafe;
 
+// used for accessing the internal Unsafe class.
+// Unsafe class is a class that provides low-level methods for memory management, synchronization, and other low-level operations. 
+// It is used internally by the Java core libraries and other libraries that require low-level operations. 
+// Unsafe class is not part of the Java SE specification, and it is not guaranteed to be available in all Java implementations. 
+// It is not recommended to use the Unsafe class in your code because it can lead to security vulnerabilities and other issues. 
+// It is not intended to be used by application developers. 
+
 import java.lang.reflect.Field;
 
 public class ReflectionExample {
